@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <form action="project4.html">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .parallax {
+            background-image: url('parallax-image.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <div class="content">
+            <h1>Welcome to Parallax Website</h1>
+            <p>This is a simple parallax scrolling website.</p>
+        </div>
+    </div>
+    <div style="height: 100vh; background-color: #f2f2f2; text-align: center; padding: 20px;">
+        <h2>About Us</h2>
+        <p>We are researchers and developers of the future.</p>
+    </div>
+    <div class="parallax">
+        <div class="content">
+            <h2>Services</h2>
+            <p>We delve into softwares,websites,photography and printing.</p>
+        </div>
+    </div>
+</body>
+</html>
